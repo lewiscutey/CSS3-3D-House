@@ -61,11 +61,13 @@ html,body{
 
 .left .iconfont{
     width:100px;height:100px;
-    float:left;margin:230px 100px;
+    float:left;margin:100px;
     background:#999;
     box-shadow: 0 0 5px #aaa;
     border-radius: 5px;
-    color:orangered;font-size:100px;text-align: center;
+    color:orangered;
+    font-size:60px;
+    text-align: center;
     line-height: 100px;
     transform: rotate3d(0,1,0,180deg);
     text-shadow:0 0 3px red ;overflow: hidden;
@@ -74,14 +76,16 @@ html,body{
 
 .right .iconfont{
     width:100px;height:100px;
-    float:left;margin:230px 100px;
-    background:#999;
-    box-shadow: 0 0 5px #aaa;
+    float:left;margin:100px;
+    background: #718dff;
+    box-shadow: 0 0 5px #5694ff;
     border-radius: 5px;
-    color:orangered;font-size:100px;text-align: center;
+    color: #ffffff;
+    font-size:60px;
+    text-align: center;
     line-height: 100px;
     transform: rotate3d(0,1,0,180deg);
-    text-shadow:0 0 3px red ;
+    text-shadow:0 0 3px rgba(255, 77, 87, 0.26);
     backface-visibility: visible;
 
 }

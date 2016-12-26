@@ -14,24 +14,35 @@
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
 }
-.icon-mysql:before { content: "\e613"; }
 
-.icon-html:before { content: "\e694"; }
+.icon-css3:before { content: "\e68c"; }
 
-.icon-fabuxinwen:before { content: "\e647"; }
+.icon-php:before { content: "\e6b5"; }
 
-.icon-boke4:before { content: "\e60e"; }
+.icon-nodejs:before { content: "\e6ba"; }
 
-.icon-zhan:before { content: "\e60f"; }
+.icon-less:before { content: "\e607"; }
 
-.icon-php:before { content: "\e685"; }
+.icon-gulpwhitetext:before { content: "\e602"; }
 
-.icon-jszhuanhuan:before { content: "\e695"; }
+.icon-touch:before { content: "\e6f6"; }
 
-.icon-nodejs:before { content: "\e989"; }
+.icon-h5:before { content: "\e73b"; }
 
-.icon-jquery-copy:before { content: "\e600"; }
+.icon-qianduan:before { content: "\e600"; }
 
-.icon-qiyewangguanli:before { content: "\e645"; }
+.icon-mysql:before { content: "\e687"; }
 
-.icon-qianduanyingyong:before { content: "\e623"; }
+.icon-js:before { content: "\e624"; }
+
+.icon-jquery-copy:before { content: "\e601"; }
+
+.icon-oGDwRZJ01:before { content: "\e633"; }
+
+.icon-JS:before { content: "\e629"; }
+
+.icon-r-rect:before { content: "\e63c"; }
+
+.icon-angular:before { content: "\e619"; }
+
+.icon-sass:before { content: "\e615"; }
