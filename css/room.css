@@ -21,7 +21,7 @@ html,body{
 }
 .scene .room .panel:nth-child(1){
     background: url(../img/tianhuaban2.jpg);
-    background-size: 50px 50px;
+    background-size: 100px 100px;
     transform-origin: top;
     transform: rotateX(90deg);
     box-shadow: 0 0 200px #666 inset;
@@ -29,18 +29,22 @@ html,body{
 
 .scene .room .panel:nth-child(2){
     background: #ccc;
+    background-image: url("../img/qiangzhi.jpg");
+    background-repeat: repeat;
     transform-origin: left;
     transform: rotateY(-90deg);
     box-shadow: 0 0 200px #999 inset;
 }
 
 .scene .room .panel:nth-child(3){
-    background: #ccc url(../img/chuanghu2.jpg) no-repeat center;
+    background: url(../img/chuanghu2.jpg) center no-repeat,url(../img/qiangzhi.jpg) center repeat ;
     box-shadow: 0 0 200px #999 inset;
 }
 
 .scene .room .panel:nth-child(4){
     background: #ccc;
+    background-image: url("../img/qiangzhi.jpg");
+    background-repeat: repeat;
     transform-origin: right;
     transform: rotateY(90deg);
     box-shadow: 0 0 200px #999 inset;
@@ -48,29 +52,28 @@ html,body{
 
 
 .scene .room .panel:nth-child(5){
-    background: url(../img/diban.jpg);
+    background: url(../img/diban1.jpg);
     transform-origin: bottom;
     transform: rotateX(-90deg);
     box-shadow: 0 0 100px #000 inset;
 }
 
 .scene .room .panel:nth-child(6){
-    background: url(../img/1.jpg) no-repeat;
-    background-size: cover;
+    background: url(../img/back.png) center no-repeat,url(../img/qiangzhi.jpg) center repeat ;
 }
 
 .left .iconfont{
     width:100px;height:100px;
     float:left;margin:100px;
-    background:#999;
-    box-shadow: 0 0 5px #aaa;
+    background: #718dff;
+    box-shadow: 0 0 5px #5694ff;
     border-radius: 5px;
-    color:orangered;
+    color:#FFFFFF;
     font-size:60px;
     text-align: center;
     line-height: 100px;
     transform: rotate3d(0,1,0,180deg);
-    text-shadow:0 0 3px red ;overflow: hidden;
+    text-shadow:0 0 3px #ffaff4;overflow: hidden;
 
 }
 
